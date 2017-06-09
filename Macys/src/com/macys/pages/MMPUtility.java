@@ -12,7 +12,7 @@ public class MMPUtility {
 
 		System.out.println("in navigation methods:" + tabName);
 		List<WebElement> list = driver.findElements(By.xpath("//span[contains(text(),'"+ tabName +"')]"));
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 		try {
 			for(int i=0;i<list.size();i++){
 				

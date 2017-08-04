@@ -22,7 +22,7 @@ public class RMTests {
 	@BeforeClass
 	public void invokeBrowser() throws IOException
 	{
-
+		//Fetching the  object for logger
 		log = Logger.getLogger("RMTests.class");
 		PropertyConfigurator.configure("Log4j.properties");
 		File obj1 = new File("RM.properties");

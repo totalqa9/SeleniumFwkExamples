@@ -1,4 +1,4 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.pages;
 
 import java.util.List;
 

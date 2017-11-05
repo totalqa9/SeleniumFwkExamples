@@ -1,10 +1,11 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.pages;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.toolsqa.rmnot.tests.RetailMeNotTests;
 
 public class GiftCardDealsPage {
 	 Logger logger;

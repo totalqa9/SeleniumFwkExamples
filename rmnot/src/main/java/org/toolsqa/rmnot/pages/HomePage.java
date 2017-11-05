@@ -1,4 +1,4 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

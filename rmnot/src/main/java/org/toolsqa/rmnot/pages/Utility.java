@@ -1,4 +1,4 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.pages;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;

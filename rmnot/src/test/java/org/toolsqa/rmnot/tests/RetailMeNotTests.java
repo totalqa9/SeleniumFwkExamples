@@ -1,4 +1,4 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.tests;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,6 +18,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.toolsqa.rmnot.pages.GiftCardDealsPage;
+import org.toolsqa.rmnot.pages.HomePage;
+import org.toolsqa.rmnot.pages.ProductDealsPage;
+import org.toolsqa.rmnot.pages.Utility;
 
 import jxl.read.biff.BiffException;
 
@@ -28,7 +32,7 @@ public class RetailMeNotTests {
 	ProductDealsPage p1 ;
 	String url;
 	 Logger logger;
-	static Properties pro;
+	public static Properties pro;
 	@Parameters({"url","browserType"})
 	@BeforeClass
 	public void invokeBrowser(String url,String browserType) throws IOException

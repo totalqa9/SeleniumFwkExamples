@@ -1,4 +1,4 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.pages;
 
 /**
  * Hello world!

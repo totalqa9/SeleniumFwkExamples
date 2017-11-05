@@ -1,4 +1,4 @@
-package org.toolsqa.rmnot;
+package org.toolsqa.rmnot.tests;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

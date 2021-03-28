@@ -7,6 +7,6 @@ public class ChromeDriverTests {
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://total-qa.com");
-		System.out.println(driver.getTitle());
+		System.out.println("The Title is " + driver.getTitle());
 	}
 }
